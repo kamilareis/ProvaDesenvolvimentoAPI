@@ -1,0 +1,13 @@
+### Cadastrar
+POST https://localhost:5001/api/filme/create
+Content-Type: application/json
+
+{
+    "Titulo" : "A chegada",
+    "Genero" : "Ficção científica",
+    "Ano" : 2016,
+    "Duração" : "1h 56m",
+}
+
+### Listar
+GET https://localhost:5001/api/filme/list
